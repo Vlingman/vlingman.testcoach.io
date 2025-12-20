@@ -6,7 +6,7 @@ import victoryImage from '@/assets/victory-pose.jpeg';
 const accomplishments = [
   {
     icon: Globe,
-    title: '4x World Champion',
+    title: 'World Champion',
     description: 'World\'s Strongest Man U90',
   },
   {
@@ -98,7 +98,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                As the current 4-time World's Strongest Man U90, I've experienced firsthand what it takes to 
+                As the current World's Strongest Man U90, I've experienced firsthand what it takes to 
                 stand at the top of the world stage. From grueling training cycles to the pressure of competition 
                 day, I understand every aspect of what makes a champion.
               </p>
