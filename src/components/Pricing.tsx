@@ -4,9 +4,9 @@ import { Button } from '@/components/ui/button';
 const pricingPlans = [
   {
     name: 'Program Only',
-    price: '149',
+    price: '80',
     period: '/month',
-    description: 'Custom programming delivered monthly with adjustments based on your feedback.',
+    description: 'Custom programming delivered monthly, perfect for self-motivated athletes.',
     features: [
       'Personalized training program',
       'Monthly program updates',
@@ -17,33 +17,35 @@ const pricingPlans = [
     popular: false,
   },
   {
-    name: 'Full Coaching',
-    price: '299',
+    name: 'Full 1-on-1 Coaching',
+    price: '150',
     period: '/month',
-    description: 'Complete coaching experience with weekly check-ins and direct communication.',
+    description: 'Complete coaching experience with hands-on guidance and direct communication.',
     features: [
-      'Everything in Program Only',
+      'Custom periodized program',
       'Weekly video form reviews',
       'Direct messaging access',
-      'Nutrition guidance',
       'Competition prep support',
-      'Priority response time',
+      'Water cutting guidance',
+      'Unlimited program adjustments',
+      'At-competition coaching*',
     ],
     cta: 'Apply Now',
     popular: true,
   },
   {
-    name: 'Competition Elite',
-    price: '449',
+    name: 'Full Coaching + Nutrition',
+    price: '200',
     period: '/month',
-    description: 'Premium coaching for serious competitors with comprehensive support.',
+    description: 'Premium package with complete training and nutrition programming.',
     features: [
       'Everything in Full Coaching',
-      'Bi-weekly video calls',
-      'Event-specific programming',
-      'Meet day coaching (virtual)',
-      'Recovery & mobility protocols',
-      'Supplement recommendations',
+      'Personalized nutrition plan',
+      'Diet adjustments & tracking',
+      'Weight class management',
+      'Competition day nutrition',
+      'Supplement guidance',
+      'Body composition optimization',
     ],
     cta: 'Apply Now',
     popular: false,
@@ -98,7 +100,7 @@ const Pricing = () => {
               {/* Price */}
               <div className="mb-4">
                 <span className="font-display text-4xl md:text-5xl font-bold text-foreground">
-                  ${plan.price}
+                  €{plan.price}
                 </span>
                 <span className="text-muted-foreground">{plan.period}</span>
               </div>
@@ -132,7 +134,7 @@ const Pricing = () => {
 
         {/* Note */}
         <p className="text-center text-sm text-muted-foreground mt-8">
-          All prices in USD. 3-month minimum commitment recommended for best results.
+          All prices in EUR. *At-competition coaching available when possible based on location and schedule.
         </p>
       </div>
     </section>
