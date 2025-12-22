@@ -40,7 +40,7 @@ const CTA = () => {
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild className="hover-lift">
-              <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+              <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/Kdiu6SZuNsnhBLdb6">
                 <Calendar className="mr-2 h-5 w-5" />
                 Book Free Consultation
               </a>
