@@ -7,7 +7,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="#" className="font-display text-2xl font-bold tracking-wider text-foreground">
-              ​VIKTORLINGMAN<span className="text-primary">COACH</span>
+              ​VIKTORLINGMAN<span className="text-primary">COACHING</span>
             </a>
             <p className="text-muted-foreground mt-4 max-w-md">
               Professional strongman and strength coaching. Building champions through 
