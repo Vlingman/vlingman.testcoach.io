@@ -11,7 +11,6 @@ const pricingPlans = [
       'Personalized training program',
       'Monthly program updates',
       'Exercise demonstration videos',
-      'Email support',
     ],
     cta: 'Get Started',
     popular: false,
