@@ -12,7 +12,7 @@ const navLinks = [{
   label: 'Pricing'
 }, {
   href: '#referrals',
-  label: 'Referrals'
+  label: 'Testimonials'
 }];
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
