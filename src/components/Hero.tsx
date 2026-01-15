@@ -27,17 +27,17 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 md:px-6 pt-20">
         <div className="max-w-3xl">
-          <p className="font-display text-primary uppercase tracking-[0.3em] text-sm md:text-base mb-4 animate-fade-up opacity-0">
+          <p className="font-display text-primary uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-base mb-3 md:mb-4 animate-fade-up opacity-0">
             Elite Strongman Coaching
           </p>
           
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6 animate-fade-up opacity-0 delay-100">
+          <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-4 md:mb-6 animate-fade-up opacity-0 delay-100">
             BUILD
             <span className="block text-gradient-animated">CHAMPIONSHIP</span>
             STRENGTH
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 animate-fade-up opacity-0 delay-200">
+          <p className="text-base md:text-xl text-muted-foreground max-w-xl mb-6 md:mb-8 animate-fade-up opacity-0 delay-200">
             Train with a competitive strongman athlete. Custom programs, 
             competition prep, and the guidance you need to reach your full potential.
           </p>

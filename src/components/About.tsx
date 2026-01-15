@@ -50,26 +50,26 @@ const About = () => {
     ref: contentRef,
     isVisible: contentVisible
   } = useScrollAnimation();
-  return <section id="about" className="py-20 md:py-32 bg-secondary/30">
+  return <section id="about" className="py-16 md:py-32 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
         {/* Section Header */}
-        <div ref={headerRef} className={`text-center mb-16 transition-all duration-700 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <p className="font-display text-primary uppercase tracking-[0.3em] text-sm mb-4">
+        <div ref={headerRef} className={`text-center mb-12 md:mb-16 transition-all duration-700 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <p className="font-display text-primary uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-sm mb-3 md:mb-4">
             About Me
           </p>
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-2xl md:text-5xl font-bold text-foreground mb-3 md:mb-4">
             WORLD CHAMPION COACHING
           </h2>
-          <div className="w-24 h-1 bg-primary mx-auto" />
+          <div className="w-16 md:w-24 h-1 bg-primary mx-auto" />
         </div>
 
         {/* Stats Bar */}
-        <div ref={statsRef} className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16 max-w-4xl mx-auto">
-          {stats.map((stat, index) => <div key={index} className={`bg-card rounded-lg p-6 text-center border border-border hover-lift hover-glow transition-all duration-700 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{
+        <div ref={statsRef} className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-12 md:mb-16 max-w-4xl mx-auto">
+          {stats.map((stat, index) => <div key={index} className={`bg-card rounded-lg p-4 md:p-6 text-center border border-border hover-lift hover-glow transition-all duration-700 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{
           transitionDelay: `${index * 100}ms`
         }}>
-              <p className="font-display text-3xl md:text-4xl font-bold text-primary">{stat.value}</p>
-              <p className="text-sm text-muted-foreground mt-1">{stat.label}</p>
+              <p className="font-display text-2xl md:text-4xl font-bold text-primary">{stat.value}</p>
+              <p className="text-xs md:text-sm text-muted-foreground mt-1">{stat.label}</p>
             </div>)}
         </div>
 

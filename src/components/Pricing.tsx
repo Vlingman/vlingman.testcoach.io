@@ -57,23 +57,23 @@ const Pricing = () => {
   const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation();
 
   return (
-    <section id="pricing" className="py-20 md:py-32 bg-secondary/30">
+    <section id="pricing" className="py-16 md:py-32 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
         {/* Section Header */}
         <div 
           ref={headerRef}
-          className={`text-center mb-16 transition-all duration-700 ${
+          className={`text-center mb-12 md:mb-16 transition-all duration-700 ${
             headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          <p className="font-display text-primary uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="font-display text-primary uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-sm mb-3 md:mb-4">
             Pricing
           </p>
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-2xl md:text-5xl font-bold text-foreground mb-3 md:mb-4">
             INVEST IN YOUR STRENGTH
           </h2>
-          <div className="w-24 h-1 bg-primary mx-auto mb-6" />
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <div className="w-16 md:w-24 h-1 bg-primary mx-auto mb-4 md:mb-6" />
+          <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto px-2">
             Transparent pricing with no hidden fees. All plans include an initial consultation 
             to ensure we're the right fit.
           </p>

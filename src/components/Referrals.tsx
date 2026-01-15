@@ -33,23 +33,23 @@ const Referrals = () => {
   const { ref: imagesRef, isVisible: imagesVisible } = useScrollAnimation();
 
   return (
-    <section id="referrals" className="py-20 md:py-32">
+    <section id="referrals" className="py-16 md:py-32">
       <div className="container mx-auto px-4 md:px-6">
         {/* Section Header */}
         <div 
           ref={headerRef}
-          className={`text-center mb-16 transition-all duration-700 ${
+          className={`text-center mb-12 md:mb-16 transition-all duration-700 ${
             headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          <p className="font-display text-primary uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="font-display text-primary uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-sm mb-3 md:mb-4">
             Future Success Stories
           </p>
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-2xl md:text-5xl font-bold text-foreground mb-3 md:mb-4">
             BE THE FIRST
           </h2>
-          <div className="w-24 h-1 bg-primary mx-auto mb-6" />
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <div className="w-16 md:w-24 h-1 bg-primary mx-auto mb-4 md:mb-6" />
+          <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto px-2">
             I'm launching my coaching services and looking for dedicated athletes ready to work with a world champion. 
             <span className="text-primary font-semibold"> Your success story could be featured here.</span>
           </p>
