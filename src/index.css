@@ -68,6 +68,31 @@
     font-family: 'Oswald', sans-serif;
     @apply font-bold tracking-tight;
   }
+
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(0 0% 4%);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(0 0% 20%);
+    border-radius: 5px;
+    border: 2px solid hsl(0 0% 4%);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(24 95% 53%);
+  }
+
+  /* Firefox scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(0 0% 20%) hsl(0 0% 4%);
+  }
 }
 
 @layer components {

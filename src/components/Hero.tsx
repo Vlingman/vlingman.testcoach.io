@@ -1,16 +1,20 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Calendar } from 'lucide-react';
 import heroImage from '@/assets/log-press.jpeg';
+import { useParallax } from '@/hooks/useParallax';
 
 const Hero = () => {
+  const parallaxOffset = useParallax(0.4);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Image with Parallax */}
       <div className="absolute inset-0">
         <img 
           src={heroImage} 
           alt="Strongman athlete performing log press at competition" 
-          className="w-full h-full object-cover object-center scale-105 animate-[scaleIn_1.5s_ease-out_forwards]" 
+          className="w-full h-[120%] object-cover object-center scale-105 animate-[scaleIn_1.5s_ease-out_forwards]" 
+          style={{ transform: `translateY(${parallaxOffset}px) scale(1.05)` }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50" />
