@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Calendar } from 'lucide-react';
-import heroImage from '@/assets/log-press.jpeg';
 import { useParallax } from '@/hooks/useParallax';
 
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
       {/* Background Image with Parallax */}
       <div className="absolute inset-0">
         <img 
-          src={heroImage} 
+          src="/lovable-uploads/0b4f51b5-50f7-429b-8bbb-90c8eb89abbb.jpg" 
           alt="Strongman athlete performing log press at competition" 
           className="w-full h-[120%] object-cover object-center scale-105 animate-[scaleIn_1.5s_ease-out_forwards]" 
           style={{ transform: `translateY(${parallaxOffset}px) scale(1.05)` }}
@@ -28,7 +27,7 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 md:px-6 pt-20">
         <div className="max-w-3xl">
           <p className="font-display text-primary uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-base mb-3 md:mb-4 animate-fade-up opacity-0">
-            Elite Strongman Coaching
+            Strongman Coaching
           </p>
           
           <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-4 md:mb-6 animate-fade-up opacity-0 delay-100">
