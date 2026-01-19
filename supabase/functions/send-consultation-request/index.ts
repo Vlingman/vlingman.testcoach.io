@@ -29,9 +29,10 @@ const handler = async (req: Request): Promise<Response> => {
     console.log("Received consultation request:", { name, email, preferredDate, preferredTime });
 
     // Send notification email to the coach
+    const notifyEmail = Deno.env.get("CONSULTATION_NOTIFY_TO") || "vabba.lingman@gmail.com";
     const notificationResponse = await resend.emails.send({
       from: "Consultation Requests <onboarding@resend.dev>",
-      to: ["vabba.lingman@gmail.com"],
+      to: [notifyEmail],
       subject: `New Consultation Request from ${name}`,
       html: `
         <h1>New Consultation Request</h1>
