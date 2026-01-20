@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "about": "Om Mig",
+    "services": "Tjänster",
+    "pricing": "Priser",
+    "testimonials": "Omdömen",
+    "bookConsultation": "Boka Konsultation"
+  },
+  "hero": {
+    "tagline": "Strongman Coaching",
+    "title1": "BYGG",
+    "title2": "MÄSTARNAS",
+    "title3": "STYRKA",
+    "description": "Träna med en tävlande strongman-atlet. Skräddarsydda program, tävlingsförberedelser och den vägledning du behöver för att nå din fulla potential.",
+    "freeConsultation": "Gratis Konsultation",
+    "whatIOffer": "VAD JAG ERBJUDER"
+  },
+  "about": {
+    "tagline": "Om Mig",
+    "title": "VÄRLDSMÄSTARCOACHING",
+    "subtitle": "Från Världsmästare till Din Coach",
+    "description1": "Som nuvarande World's Strongest Man U90 har jag upplevt på nära håll vad som krävs för att stå på toppen av världsscenen. Från hårda träningscykler till tävlingsdagens press förstår jag varje aspekt av vad som gör en mästare.",
+    "description2": "Med över 10 års strongman-träning och 8+ års tävlingserfarenhet har jag samlat mer än 20 pallplaceringar inklusive över 10 förstaplaceringar. Jag innehar U90 världsrekordet i stocklyft tillsammans med flera europeiska, nordiska och svenska rekord.",
+    "description3": "Min metod kombinerar beprövade träningsmetoder med individualiserad programmering. Oavsett om du förbereder dig för din första tävling eller jagar en världstitel, hjälper jag dig att bygga styrka, teknik och mentalitet för att lyckas.",
+    "recordsNote": "Flera Europeiska, Nordiska & Svenska Rekord",
+    "stats": {
+      "podiumFinishes": "Pallplaceringar",
+      "firstPlaceWins": "Förstaplaceringar",
+      "yearsCompeting": "År Tävlande",
+      "yearsTraining": "År Träning"
+    },
+    "accomplishments": {
+      "worldChampion": "Världsmästare",
+      "worldChampionDesc": "World's Strongest Man U90",
+      "nationalChampion": "4x Svensk Mästare",
+      "nationalChampionDesc": "Sveriges Starkaste Man U90",
+      "nordicChampion": "Nordisk Mästare",
+      "nordicChampionDesc": "Nordens Starkaste U90",
+      "worldRecordHolder": "Världsrekordinnehavare",
+      "worldRecordHolderDesc": "U90 Stocklyft"
+    }
+  },
+  "services": {
+    "tagline": "Vad Jag Erbjuder",
+    "title": "KOMPLETT COACHING",
+    "description": "Allt du behöver för att bli en starkare, mer tävlingsinriktad atlet. Från programmering till tävlingsdag har jag dig täckt.",
+    "boxTitle": "Full Coaching Inkluderar",
+    "viewPricing": "Se Prisplaner",
+    "yearsCompetition": "Års Tävlingserfarenhet",
+    "yearsTraining": "Års Träningserfarenhet",
+    "items": {
+      "customPrograms": "Skräddarsydda periodiserade träningsprogram",
+      "techniqueCoaching": "Grenspecifik teknikcoaching",
+      "peakWeek": "Toppvecka strategi & programmering",
+      "competitionPlan": "Tävlingsdagens spelplan",
+      "videoReviews": "Veckovisa videogenomgångar av teknik",
+      "messaging": "Direktmeddelandestöd",
+      "adjustments": "Regelbundna programjusteringar",
+      "competitionPrep": "Tävlingsförberedelser & peaking",
+      "waterCutting": "Vattenklippning för invägning",
+      "weightClass": "Viktklasshantering",
+      "recovery": "Återhämtning & avlastningsprogram",
+      "atCompetition": "Coaching på plats (när möjligt)"
+    }
+  },
+  "pricing": {
+    "tagline": "Priser",
+    "title": "INVESTERA I DIN STYRKA",
+    "note": "Alla priser i EUR. Coaching på plats tillgängligt baserat på plats.",
+    "perMonth": "/månad",
+    "plans": {
+      "programOnly": {
+        "name": "Endast Program",
+        "description": "Skräddarsydd programmering levereras månadsvis.",
+        "cta": "Kom Igång",
+        "features": {
+          "personalizedProgram": "Personligt träningsprogram",
+          "monthlyUpdates": "Månatliga programuppdateringar",
+          "demoVideos": "Övningsdemovideor"
+        }
+      },
+      "fullCoaching": {
+        "name": "Full 1-on-1 Coaching",
+        "description": "Komplett coaching med direktkommunikation.",
+        "cta": "Ansök Nu",
+        "features": {
+          "customProgram": "Skräddarsytt periodiserat program",
+          "videoReviews": "Veckovisa videogenomgångar",
+          "messaging": "Direktmeddelandeåtkomst",
+          "competitionPrep": "Tävlingsförberedelser & vattenklipp",
+          "unlimitedAdjustments": "Obegränsade justeringar"
+        }
+      },
+      "coachingNutrition": {
+        "name": "Coaching + Kost",
+        "description": "Premium tränings- och kostpaket.",
+        "cta": "Ansök Nu",
+        "features": {
+          "everythingFull": "Allt i Full Coaching",
+          "nutritionPlan": "Personlig kostplan",
+          "weightClass": "Viktklasshantering",
+          "competitionNutrition": "Tävlingsdagens kost"
+        }
+      }
+    }
+  },
+  "referrals": {
+    "tagline": "Omdömen",
+    "title": "BLI DEN FÖRSTA",
+    "ctaTitle": "Grundaratletplatser Tillgängliga",
+    "ctaDescription": "Bli en av de första att träna med en världsmästare. Tidiga klienter får personlig uppmärksamhet och kan presenteras här."
+  },
+  "cta": {
+    "tagline": "Redo att Börja?",
+    "title1": "LÅT OSS BYGGA DIN",
+    "title2": "STARKASTE VERSION",
+    "description": "Fyll i mitt formulär eller boka en gratis konsultation.",
+    "questionnaire": "Formulär",
+    "freeConsultation": "Gratis Konsultation",
+    "noCommitment": "Inget åtagande",
+    "thirtyMinCall": "30-minuters samtal",
+    "hundredFree": "100% gratis"
+  },
+  "footer": {
+    "description": "Professionell strongman- och styrkecoaching. Bygger mästare genom beprövade träningsmetoder och personanpassad programmering.",
+    "quickLinks": "Snabblänkar",
+    "aboutMe": "Om Mig",
+    "getStarted": "Kom Igång",
+    "athleteQuestionnaire": "Atletformulär",
+    "bookConsultation": "Boka Konsultation",
+    "contactMe": "Kontakta Mig",
+    "copyright": "© {{year}} ViktorLingmanCoaching. Alla rättigheter förbehållna.",
+    "privacyPolicy": "Integritetspolicy",
+    "termsOfService": "Användarvillkor"
+  },
+  "booking": {
+    "backToHome": "Tillbaka till Startsidan",
+    "tagline": "Gratis Konsultation",
+    "title": "BOKA DIN",
+    "titleHighlight": "30-MINUTERS",
+    "titleEnd": "SAMTAL",
+    "description": "Välj önskat datum och tid, och jag bekräftar din konsultation inom 24 timmar.",
+    "selectDate": "Välj ett Datum",
+    "selectTime": "Välj en Tid",
+    "timezoneNote": "Tider visas i din lokala tidszon ({{timezone}})",
+    "yourDetails": "Dina Uppgifter",
+    "fullName": "Fullständigt Namn",
+    "namePlaceholder": "Ditt namn",
+    "emailAddress": "E-postadress",
+    "emailPlaceholder": "din@email.com",
+    "goalsLabel": "Berätta om dina mål (valfritt)",
+    "goalsPlaceholder": "Vad hoppas du uppnå? Några specifika frågor?",
+    "submitButton": "Begär Konsultation",
+    "submitting": "Skickar...",
+    "trustNote": "100% gratis · Inget åtagande · Jag bekräftar inom 24 timmar",
+    "validation": {
+      "selectDate": "Välj ett datum",
+      "selectDateDesc": "Välj önskat konsultationsdatum från kalendern.",
+      "selectTime": "Välj en tid",
+      "selectTimeDesc": "Välj önskad konsultationstid."
+    },
+    "success": {
+      "title": "Förfrågan Skickad!",
+      "description": "Jag återkommer inom 24 timmar för att bekräfta din konsultationstid."
+    },
+    "error": {
+      "title": "Något gick fel",
+      "description": "Försök igen eller kontakta direkt via e-post."
+    }
+  }
+}

@@ -1,8 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { useParallax } from '@/hooks/useParallax';
 
 const Hero = () => {
+  const { t } = useTranslation();
   const parallaxOffset = useParallax(0.4);
 
   return (
@@ -27,30 +29,29 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 md:px-6 pt-20">
         <div className="max-w-3xl">
           <p className="font-display text-primary uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-base mb-3 md:mb-4 animate-fade-up opacity-0">
-            Strongman Coaching
+            {t('hero.tagline')}
           </p>
           
           <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-4 md:mb-6 animate-fade-up opacity-0 delay-100">
-            BUILD
-            <span className="block text-gradient-animated">CHAMPIONSHIP</span>
-            STRENGTH
+            {t('hero.title1')}
+            <span className="block text-gradient-animated">{t('hero.title2')}</span>
+            {t('hero.title3')}
           </h1>
           
           <p className="text-base md:text-xl text-muted-foreground max-w-xl mb-6 md:mb-8 animate-fade-up opacity-0 delay-200">
-            Train with a competitive strongman athlete. Custom programs, 
-            competition prep, and the guidance you need to reach your full potential.
+            {t('hero.description')}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up opacity-0 delay-300">
             <Button variant="hero" size="xl" asChild className="group">
               <a href="/book">
                 <Calendar className="mr-2 h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
-                Free Consultation
+                {t('hero.freeConsultation')}
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild className="group">
               <a href="#services">
-                WHAT I OFFER  
+                {t('hero.whatIOffer')}
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
             </Button>

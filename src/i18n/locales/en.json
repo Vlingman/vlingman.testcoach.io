@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "bookConsultation": "Book Consultation"
+  },
+  "hero": {
+    "tagline": "Strongman Coaching",
+    "title1": "BUILD",
+    "title2": "CHAMPIONSHIP",
+    "title3": "STRENGTH",
+    "description": "Train with a competitive strongman athlete. Custom programs, competition prep, and the guidance you need to reach your full potential.",
+    "freeConsultation": "Free Consultation",
+    "whatIOffer": "WHAT I OFFER"
+  },
+  "about": {
+    "tagline": "About Me",
+    "title": "WORLD CHAMPION COACHING",
+    "subtitle": "From World Champion to Your Coach",
+    "description1": "As the current World's Strongest Man U90, I've experienced firsthand what it takes to stand at the top of the world stage. From grueling training cycles to the pressure of competition day, I understand every aspect of what makes a champion.",
+    "description2": "With over 10 years of strongman training and 8+ years of competitive experience, I've accumulated more than 20 podium finishes including over 10 first place victories. I hold the U90 world record in log press along with multiple European, Nordic, and Swedish records.",
+    "description3": "My approach combines proven training methodologies with individualized programming. Whether you're preparing for your first competition or chasing a world title, I'll help you build the strength, technique, and mindset to succeed.",
+    "recordsNote": "Multiple European, Nordic & Swedish Records",
+    "stats": {
+      "podiumFinishes": "Podium Finishes",
+      "firstPlaceWins": "First Place Wins",
+      "yearsCompeting": "Years Competing",
+      "yearsTraining": "Years Training"
+    },
+    "accomplishments": {
+      "worldChampion": "World Champion",
+      "worldChampionDesc": "World's Strongest Man U90",
+      "nationalChampion": "4x National Champion",
+      "nationalChampionDesc": "Sweden's Strongest Man U90",
+      "nordicChampion": "Nordic Champion",
+      "nordicChampionDesc": "Nordic's Strongest U90",
+      "worldRecordHolder": "World Record Holder",
+      "worldRecordHolderDesc": "U90 Log Press"
+    }
+  },
+  "services": {
+    "tagline": "What I Offer",
+    "title": "COMPLETE COACHING",
+    "description": "Everything you need to become a stronger, more competitive athlete. From programming to competition day, I've got you covered.",
+    "boxTitle": "Full Coaching Includes",
+    "viewPricing": "View Pricing Plans",
+    "yearsCompetition": "Years Competition Experience",
+    "yearsTraining": "Years Training Experience",
+    "items": {
+      "customPrograms": "Custom periodized training programs",
+      "techniqueCoaching": "Event-specific technique coaching",
+      "peakWeek": "Peak week strategy & programming",
+      "competitionPlan": "Competition day game plan",
+      "videoReviews": "Weekly video form reviews",
+      "messaging": "Direct messaging support",
+      "adjustments": "Regular program adjustments",
+      "competitionPrep": "Competition prep & peaking",
+      "waterCutting": "Water cutting for weigh-ins",
+      "weightClass": "Weight class management",
+      "recovery": "Recovery & deload programming",
+      "atCompetition": "At-competition coaching (when possible)"
+    }
+  },
+  "pricing": {
+    "tagline": "Pricing",
+    "title": "INVEST IN YOUR STRENGTH",
+    "note": "All prices in EUR. At-competition coaching available based on location.",
+    "perMonth": "/month",
+    "plans": {
+      "programOnly": {
+        "name": "Program Only",
+        "description": "Custom programming delivered monthly.",
+        "cta": "Get Started",
+        "features": {
+          "personalizedProgram": "Personalized training program",
+          "monthlyUpdates": "Monthly program updates",
+          "demoVideos": "Exercise demo videos"
+        }
+      },
+      "fullCoaching": {
+        "name": "Full 1-on-1 Coaching",
+        "description": "Complete coaching with direct communication.",
+        "cta": "Apply Now",
+        "features": {
+          "customProgram": "Custom periodized program",
+          "videoReviews": "Weekly video form reviews",
+          "messaging": "Direct messaging access",
+          "competitionPrep": "Competition prep & water cut",
+          "unlimitedAdjustments": "Unlimited adjustments"
+        }
+      },
+      "coachingNutrition": {
+        "name": "Coaching + Nutrition",
+        "description": "Premium training and nutrition package.",
+        "cta": "Apply Now",
+        "features": {
+          "everythingFull": "Everything in Full Coaching",
+          "nutritionPlan": "Personalized nutrition plan",
+          "weightClass": "Weight class management",
+          "competitionNutrition": "Competition day nutrition"
+        }
+      }
+    }
+  },
+  "referrals": {
+    "tagline": "Testimonials",
+    "title": "BE THE FIRST",
+    "ctaTitle": "Founding Athlete Spots Available",
+    "ctaDescription": "Be among the first to train with a world champion. Early clients receive personalized attention and can be featured here."
+  },
+  "cta": {
+    "tagline": "Ready to Start?",
+    "title1": "LET'S BUILD YOUR",
+    "title2": "STRONGEST SELF",
+    "description": "Fill out my questionnaire or book a free consultation.",
+    "questionnaire": "Questionnaire",
+    "freeConsultation": "Free Consultation",
+    "noCommitment": "No commitment",
+    "thirtyMinCall": "30-minute call",
+    "hundredFree": "100% free"
+  },
+  "footer": {
+    "description": "Professional strongman and strength coaching. Building champions through proven training methods and personalized programming.",
+    "quickLinks": "Quick Links",
+    "aboutMe": "About Me",
+    "getStarted": "Get Started",
+    "athleteQuestionnaire": "Athlete Questionnaire",
+    "bookConsultation": "Book Consultation",
+    "contactMe": "Contact Me",
+    "copyright": "© {{year}} ViktorLingmanCoaching. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "booking": {
+    "backToHome": "Back to Home",
+    "tagline": "Free Consultation",
+    "title": "BOOK YOUR",
+    "titleHighlight": "30-MINUTE",
+    "titleEnd": "CALL",
+    "description": "Select your preferred date and time, and I'll confirm your consultation within 24 hours.",
+    "selectDate": "Select a Date",
+    "selectTime": "Select a Time",
+    "timezoneNote": "Times shown in your local timezone ({{timezone}})",
+    "yourDetails": "Your Details",
+    "fullName": "Full Name",
+    "namePlaceholder": "Your name",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "goalsLabel": "Tell me about your goals (optional)",
+    "goalsPlaceholder": "What are you hoping to achieve? Any specific questions?",
+    "submitButton": "Request Consultation",
+    "submitting": "Submitting...",
+    "trustNote": "100% free · No commitment · I'll confirm within 24 hours",
+    "validation": {
+      "selectDate": "Please select a date",
+      "selectDateDesc": "Choose your preferred consultation date from the calendar.",
+      "selectTime": "Please select a time",
+      "selectTimeDesc": "Choose your preferred consultation time."
+    },
+    "success": {
+      "title": "Request Submitted!",
+      "description": "I'll get back to you within 24 hours to confirm your consultation time."
+    },
+    "error": {
+      "title": "Something went wrong",
+      "description": "Please try again or contact directly via email."
+    }
+  }
+}

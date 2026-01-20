@@ -1,53 +1,55 @@
+import { useTranslation } from 'react-i18next';
 import { Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
-const pricingPlans = [
-  {
-    name: 'Program Only',
-    price: '80',
-    period: '/month',
-    description: 'Custom programming delivered monthly.',
-    features: [
-      'Personalized training program',
-      'Monthly program updates',
-      'Exercise demo videos',
-    ],
-    cta: 'Get Started',
-  },
-  {
-    name: 'Full 1-on-1 Coaching',
-    price: '150',
-    period: '/month',
-    description: 'Complete coaching with direct communication.',
-    features: [
-      'Custom periodized program',
-      'Weekly video form reviews',
-      'Direct messaging access',
-      'Competition prep & water cut',
-      'Unlimited adjustments',
-    ],
-    cta: 'Apply Now',
-    highlighted: true,
-  },
-  {
-    name: 'Coaching + Nutrition',
-    price: '200',
-    period: '/month',
-    description: 'Premium training and nutrition package.',
-    features: [
-      'Everything in Full Coaching',
-      'Personalized nutrition plan',
-      'Weight class management',
-      'Competition day nutrition',
-    ],
-    cta: 'Apply Now',
-  },
-];
-
 const Pricing = () => {
+  const { t } = useTranslation();
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
   const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation();
+
+  const pricingPlans = [
+    {
+      name: t('pricing.plans.programOnly.name'),
+      price: '80',
+      period: t('pricing.perMonth'),
+      description: t('pricing.plans.programOnly.description'),
+      features: [
+        t('pricing.plans.programOnly.features.personalizedProgram'),
+        t('pricing.plans.programOnly.features.monthlyUpdates'),
+        t('pricing.plans.programOnly.features.demoVideos'),
+      ],
+      cta: t('pricing.plans.programOnly.cta'),
+    },
+    {
+      name: t('pricing.plans.fullCoaching.name'),
+      price: '150',
+      period: t('pricing.perMonth'),
+      description: t('pricing.plans.fullCoaching.description'),
+      features: [
+        t('pricing.plans.fullCoaching.features.customProgram'),
+        t('pricing.plans.fullCoaching.features.videoReviews'),
+        t('pricing.plans.fullCoaching.features.messaging'),
+        t('pricing.plans.fullCoaching.features.competitionPrep'),
+        t('pricing.plans.fullCoaching.features.unlimitedAdjustments'),
+      ],
+      cta: t('pricing.plans.fullCoaching.cta'),
+      highlighted: true,
+    },
+    {
+      name: t('pricing.plans.coachingNutrition.name'),
+      price: '200',
+      period: t('pricing.perMonth'),
+      description: t('pricing.plans.coachingNutrition.description'),
+      features: [
+        t('pricing.plans.coachingNutrition.features.everythingFull'),
+        t('pricing.plans.coachingNutrition.features.nutritionPlan'),
+        t('pricing.plans.coachingNutrition.features.weightClass'),
+        t('pricing.plans.coachingNutrition.features.competitionNutrition'),
+      ],
+      cta: t('pricing.plans.coachingNutrition.cta'),
+    },
+  ];
 
   return (
     <section id="pricing" className="py-12 md:py-32 bg-secondary/30">
@@ -60,10 +62,10 @@ const Pricing = () => {
           }`}
         >
           <p className="font-display text-primary uppercase tracking-[0.15em] md:tracking-[0.3em] text-xs md:text-sm mb-2 md:mb-4">
-            Pricing
+            {t('pricing.tagline')}
           </p>
           <h2 className="font-display text-xl md:text-5xl font-bold text-foreground mb-2 md:mb-4">
-            INVEST IN YOUR STRENGTH
+            {t('pricing.title')}
           </h2>
           <div className="w-12 md:w-24 h-1 bg-primary mx-auto" />
         </div>
@@ -129,7 +131,7 @@ const Pricing = () => {
 
         {/* Note */}
         <p className="text-center text-xs text-muted-foreground mt-6 md:mt-8">
-          All prices in EUR. At-competition coaching available based on location.
+          {t('pricing.note')}
         </p>
       </div>
     </section>

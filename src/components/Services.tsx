@@ -1,12 +1,28 @@
+import { useTranslation } from 'react-i18next';
 import { CheckCircle2, ArrowRight, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import atlasImage from '@/assets/atlas-stone.jpeg';
 import deadliftImage from '@/assets/deadlift.jpeg';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
-const services = ['Custom periodized training programs', 'Event-specific technique coaching', 'Peak week strategy & programming', 'Competition day game plan', 'Weekly video form reviews', 'Direct messaging support', 'Regular program adjustments', 'Competition prep & peaking', 'Water cutting for weigh-ins', 'Weight class management', 'Recovery & deload programming', 'At-competition coaching (when possible)'];
-
 const Services = () => {
+  const { t } = useTranslation();
+
+  const services = [
+    t('services.items.customPrograms'),
+    t('services.items.techniqueCoaching'),
+    t('services.items.peakWeek'),
+    t('services.items.competitionPlan'),
+    t('services.items.videoReviews'),
+    t('services.items.messaging'),
+    t('services.items.adjustments'),
+    t('services.items.competitionPrep'),
+    t('services.items.waterCutting'),
+    t('services.items.weightClass'),
+    t('services.items.recovery'),
+    t('services.items.atCompetition')
+  ];
+
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
   const { ref: listRef, isVisible: listVisible } = useScrollAnimation();
   const { ref: imagesRef, isVisible: imagesVisible } = useScrollAnimation();
@@ -22,15 +38,14 @@ const Services = () => {
           }`}
         >
           <p className="font-display text-primary uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-sm mb-3 md:mb-4">
-            What I Offer
+            {t('services.tagline')}
           </p>
           <h2 className="font-display text-2xl md:text-5xl font-bold text-foreground mb-3 md:mb-4">
-            COMPLETE COACHING
+            {t('services.title')}
           </h2>
           <div className="w-16 md:w-24 h-1 bg-primary mx-auto mb-4 md:mb-6" />
           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto px-2">
-            Everything you need to become a stronger, more competitive athlete. 
-            From programming to competition day, I've got you covered.
+            {t('services.description')}
           </p>
         </div>
 
@@ -47,7 +62,7 @@ const Services = () => {
                 <Zap className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-display text-2xl font-bold text-foreground">
-                Full Coaching Includes
+                {t('services.boxTitle')}
               </h3>
             </div>
 
@@ -69,7 +84,7 @@ const Services = () => {
             <div className="mt-8 pt-6 border-t border-border">
               <Button asChild className="w-full sm:w-auto hover-lift">
                 <a href="#pricing">
-                  View Pricing Plans
+                  {t('services.viewPricing')}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>
@@ -94,13 +109,13 @@ const Services = () => {
                 </div>
                 <div className="bg-primary/10 rounded-lg p-6 text-center border-glow group cursor-default">
                   <p className="font-display text-3xl font-bold text-primary group-hover:scale-110 transition-transform duration-300">8+</p>
-                  <p className="text-sm text-muted-foreground">Years Competition Experience</p>
+                  <p className="text-sm text-muted-foreground">{t('services.yearsCompetition')}</p>
                 </div>
               </div>
               <div className="space-y-4 pt-8">
                 <div className="bg-card rounded-lg p-6 text-center border border-border border-glow group cursor-default">
                   <p className="font-display text-3xl font-bold text-foreground group-hover:scale-110 transition-transform duration-300">10+</p>
-                  <p className="text-sm text-muted-foreground">Years Training Experience</p>
+                  <p className="text-sm text-muted-foreground">{t('services.yearsTraining')}</p>
                 </div>
                 <div className="img-zoom rounded-lg shadow-lg overflow-hidden">
                   <img 

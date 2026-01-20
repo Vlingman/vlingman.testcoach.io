@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import { Instagram, Youtube, Mail, ArrowUp } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
   const [showScrollTop, setShowScrollTop] = useState(false);
 
@@ -39,8 +41,7 @@ const Footer = () => {
                 ​VIKTORLINGMAN<span className="text-primary">COACHING</span>
               </a>
               <p className="text-muted-foreground mt-4 max-w-md">
-                Professional strongman and strength coaching. Building champions through 
-                proven training methods and personalized programming.
+                {t('footer.description')}
               </p>
               {/* Social Links */}
               <div className="flex gap-4 mt-6">
@@ -72,26 +73,26 @@ const Footer = () => {
 
             {/* Quick Links */}
             <div>
-              <h4 className="font-display text-lg font-bold text-foreground mb-4">Quick Links</h4>
+              <h4 className="font-display text-lg font-bold text-foreground mb-4">{t('footer.quickLinks')}</h4>
               <ul className="space-y-2">
                 <li>
                   <a href="#about" className="text-muted-foreground hover:text-primary transition-colors duration-300 link-underline">
-                    About Me
+                    {t('footer.aboutMe')}
                   </a>
                 </li>
                 <li>
                   <a href="#services" className="text-muted-foreground hover:text-primary transition-colors duration-300 link-underline">
-                    Services
+                    {t('nav.services')}
                   </a>
                 </li>
                 <li>
                   <a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors duration-300 link-underline">
-                    Pricing
+                    {t('nav.pricing')}
                   </a>
                 </li>
                 <li>
                   <a href="#referrals" className="text-muted-foreground hover:text-primary transition-colors duration-300 link-underline">
-                    Testimonials
+                    {t('nav.testimonials')}
                   </a>
                 </li>
               </ul>
@@ -99,7 +100,7 @@ const Footer = () => {
 
             {/* Contact */}
             <div>
-              <h4 className="font-display text-lg font-bold text-foreground mb-4">Get Started</h4>
+              <h4 className="font-display text-lg font-bold text-foreground mb-4">{t('footer.getStarted')}</h4>
               <ul className="space-y-2">
                 <li>
                   <a 
@@ -108,7 +109,7 @@ const Footer = () => {
                     className="text-muted-foreground hover:text-primary transition-colors duration-300 link-underline" 
                     href="https://forms.gle/cdERLCFkTc9ZumSYA"
                   >
-                    Athlete Questionnaire
+                    {t('footer.athleteQuestionnaire')}
                   </a>
                 </li>
                 <li>
@@ -118,7 +119,7 @@ const Footer = () => {
                     className="text-muted-foreground hover:text-primary transition-colors duration-300 link-underline" 
                     href="https://forms.gle/BkNUft1t15iiBVWM9"
                   >
-                    Book Consultation
+                    {t('footer.bookConsultation')}
                   </a>
                 </li>
                 <li>
@@ -126,7 +127,7 @@ const Footer = () => {
                     className="text-muted-foreground hover:text-primary transition-colors duration-300 link-underline" 
                     href="mailto:vabba.lingman@gmail.com"
                   >
-                    Contact Me
+                    {t('footer.contactMe')}
                   </a>
                 </li>
               </ul>
@@ -136,11 +137,11 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} ViktorLingmanCoaching. All rights reserved.
+              {t('footer.copyright', { year: currentYear })}
             </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
-              <a href="#" className="hover:text-primary transition-colors duration-300 link-underline">Privacy Policy</a>
-              <a href="#" className="hover:text-primary transition-colors duration-300 link-underline">Terms of Service</a>
+              <a href="#" className="hover:text-primary transition-colors duration-300 link-underline">{t('footer.privacyPolicy')}</a>
+              <a href="#" className="hover:text-primary transition-colors duration-300 link-underline">{t('footer.termsOfService')}</a>
             </div>
           </div>
         </div>
